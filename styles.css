@@ -1,0 +1,20 @@
+* {
+  background-color: red;
+}
+.nav-bar {
+  font-size: x-large;
+  text-align: center;
+  margin: auto;
+    
+}
+.navbar-item {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+.navbar-logo {
+  height: 130px;
+
+}
