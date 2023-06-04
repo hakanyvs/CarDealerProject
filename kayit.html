@@ -5,50 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yavas Car Dealer</title>
+    <style>
+        body{
+            background-color: #FFE79B;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <h1>Enter Your Information To Register</h1>
 
     <hr>
-        <h2> Hesap Bilgileriniz</h2>
+        <h2> Your Account Information</h2>
 
         <table>
 
             <tr>
-                <td style="width: 120px;"><label for="Kullanci"> Kullanıcı Adı:</label>
+                <td style="width: 120px;"><label for="nickname"> Nickname:</label>
                 </td>
                 <td style="width: 50px;"></td>
-                <td><input type="text" id="Kullanci" placeholder="Kullanıcı adı giriniz"></td>
+                <td><input type="text" id="nickname" placeholder="Enter nickname"></td>
             </tr>
             <tr>
                 <td><label for="Eposta">Email:</label>
                 </td>
                 <td></td>
-                <td><input type="email" name="" id="Eposta" placeholder="eposta giriniz"></td>
+                <td><input type="email" name="" id="Eposta" placeholder="Enter email"></td>
             </tr>
             <tr>
                 <td>
-                    <label for="parola">Parola:</label>
+                    <label for="code">Password:</label>
                 </td>
                 <td></td>
-                <td><input type="password" id="parola" placeholder="sifre giriniz"></td>
+                <td><input type="password" id="code" placeholder="Enter password"></td>
             </tr>
      
 
         </table>
-        <h2> Kişisel Bilgileriniz</h2>
+        <h2> Your Personal Information</h2>
 
         <table>
 
             <tr>
-                <td style="width: 120px;"><label for="name"></label> Adınız:</td>
+                <td style="width: 120px;"><label for="name"></label> Your name</td>
                 <td style="width: 50px;"></td>
-                <td> <input type="text" id="name" placeholder="adınızı giriniz"></td>
+                <td> <input type="text" id="name" placeholder="Enter name"></td>
             </tr>
             <tr>
-                <td><label for="surname"></label>Soyadınız:</td>
+                <td><label for="surname"></label>Your surname</td>
                 <td></td>
-                <td><input type="text" id="surname" placeholder="soyadınızı giriniz"></td>
+                <td><input type="text" id="surname" placeholder="Enter surname"></td>
             </tr>
             <tr>
                 <td><label for="cities"></label>Şehir:</td>
@@ -64,26 +72,16 @@
                 <td><label for="Cinsiyet"></label>Cinsiyet:</td>
                 <td></td>
                 <td>
-                    <input type="radio" name="sec">Erkek
-                    <input type="radio" name="sec">Kız
+                    <input type="radio" name="sec">Man 
+                    <input type="radio" name="sec">Woman
             </td>
 
             </tr>
             <tr>
-
-                <td><label for="hobi"></label>Hobileriniz:</td>
-                <td></td>
-                <td>
-                    <input type="checkbox">Sinema         
-                    <input type="checkbox">Gezmek
-                    <input type="checkbox">Spor
-                    <input type="checkbox">Kitap
-                </td>
-            </tr>
-            <tr>
                 <td></td>
                 <td></td>
-                <td><button type="submit"> Kaydet </button></td>
+                <td><button type="submit"> Save </button> </td>
+                <td><button input type="reset">  Clear</button></td>
             </tr>
 
         </table>
