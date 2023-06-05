@@ -1,6 +1,9 @@
 .header{
   display: flex;
 }
+body{
+  background-color: #FFE79B;
+}
 .nav-bar {
   font-size: x-large;
   text-align: center;
