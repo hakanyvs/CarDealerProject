@@ -1,5 +1,9 @@
-.header{
+header{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  text-align: center;
   display: flex;
+    
 }
 body{
   background-color: #068DA9;
@@ -17,7 +21,8 @@ body{
   justify-content: space-around;
  
 }
-.navbar-logo {
-  height: 130px;
+.head-logo {
+  height: 150px;
+  display: flex;
 
 }
