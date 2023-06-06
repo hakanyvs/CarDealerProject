@@ -5,8 +5,7 @@ header{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
   text-align: center;
   display: flex;
-  margin-left: 20px;
-  margin-bottom: -15px;
+  margin: 10px 10px -10px 10px;
     
 }
 body{
@@ -29,6 +28,7 @@ body{
   height: 163px;
   display: flex;
   margin-right: 200px;
+  margin-left: 15px;
 }
 .head-logo2{
   height: 167px;
