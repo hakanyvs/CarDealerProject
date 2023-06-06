@@ -35,5 +35,10 @@ body{
   margin-left: 200px;
 }
 a{
-  border: 2px solid black;
+  border: 1px solid black;
+}
+.experiment{
+  width: 800px;
+  float: left;
+
 }
