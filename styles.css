@@ -22,6 +22,7 @@ body{
   text-align: left;
   flex-direction: row;
   justify-content: space-around;
+  word-spacing: 20px;
  
 }
 .head-logo {
@@ -38,5 +39,12 @@ a{
   border: 1px solid black;
 }
 .experiment{
-  width: 800px;
+  width: 750px;
+}
+td{
+  vertical-align: top;
+  text-align: center;
+}
+footer{
+  text-align: right;
 }
