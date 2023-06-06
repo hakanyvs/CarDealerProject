@@ -1,9 +1,11 @@
 header{
-  font-size: 30px;
+  font-size: 32px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
   text-align: center;
   display: flex;
-  margin: 20px;
+  margin-left: 20px;
     
 }
 body{
@@ -23,8 +25,11 @@ body{
  
 }
 .head-logo {
-  height: 150px;
+  height: 163px;
   display: flex;
-  margin-right: 100px;
-
+  margin-right: 200px;
+}
+.head-logo2{
+  height: 167px;
+  margin-left: 200px;
 }
