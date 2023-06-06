@@ -39,9 +39,8 @@ h1{
   margin-left: 200px;
 }
 a{
-  
   margin-right: 75px;
-  border: 1px solid black;
+  text-decoration: none;
 }
 .experiment{
   width: 750px;
