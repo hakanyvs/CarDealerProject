@@ -17,17 +17,13 @@ h1{
 
 .nav-bar {
   font-size: x-large;
-  text-align: center;
-
-}
-.navbar-item {
   display: flex;
-  text-align: left;
   flex-direction: row;
-  justify-content: space-around;
-  word-spacing: 20px;
- 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
 .head-logo {
   height: 163px;
   display: flex;
@@ -39,7 +35,7 @@ h1{
   margin-left: 200px;
 }
 a{
-  margin-right: 75px;
+  margin-right: 155px;
   text-decoration: none;
 }
 .experiment{
