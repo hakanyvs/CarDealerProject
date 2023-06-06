@@ -18,8 +18,7 @@ h1{
 .nav-bar {
   font-size: x-large;
   text-align: center;
-  margin: auto;
-    
+
 }
 .navbar-item {
   display: flex;
@@ -40,6 +39,8 @@ h1{
   margin-left: 200px;
 }
 a{
+  
+  margin-right: 75px;
   border: 1px solid black;
 }
 .experiment{
