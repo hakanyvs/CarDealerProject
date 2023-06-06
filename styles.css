@@ -11,6 +11,10 @@ header{
 body{
   background-color: #068DA9;
 }
+h1{
+  text-align: center;
+}
+
 .nav-bar {
   font-size: x-large;
   text-align: center;
