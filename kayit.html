@@ -5,28 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yavas Car Dealer</title>
-    <style>
-        body{
-            background-color: #545B77;
-        }
-        h2{
-            font-size: 25px;
-        }
-        a{
-            margin-right: 120px;
-            text-decoration: none;
-            color: #ffff;
-        }
-        a:hover{color: red;}
-        .nav-bar {
-            font-size: x-large;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <div class="nav-bar">
@@ -39,74 +18,34 @@
 
       </div>
       <hr>
-    <h1 style="font-size: 38px; text-align: center;">Enter Your Information To Register</h1>
-
-    <hr>
-        <h2> Your Account Information</h2>
-        <form action="sign">
-        <table>
-            
-
-            <tr>
-                <td style="width: 120px;"><label for="nickname"> Nickname:</label>
-                </td>
-                <td style="width: 50px;"></td>
-                <td><input type="text" id="nickname" placeholder="Enter nickname"></td>
-            </tr>
-            <tr>
-                <td><label for="Eposta">Email:</label>
-                </td>
-                <td></td>
-                <td><input type="email" name="" id="Eposta" placeholder="Enter email"></td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="code">Password:</label>
-                </td>
-                <td></td>
-                <td><input type="password" id="code" placeholder="Enter password"></td>
-            </tr>
-     
-
-        </table>
-        <h2> Your Personal Information</h2>
-
-        <table>
-
-            <tr>
-                <td style="width: 120px;"><label for="name"></label> Your name</td>
-                <td style="width: 50px;"></td>
-                <td> <input type="text" id="name" placeholder="Enter name"></td>
-            </tr>
-            <tr>
-                <td><label for="surname"></label>Your surname</td>
-                <td></td>
-                <td><input type="text" id="surname" placeholder="Enter surname"></td>
-            </tr>
-            <tr>
-                <td><label for="cities"></label>City:</td>
-                <td></td>
-                <td><select id="cities">
-                    <option>Seçiniz</option>
-                    <option>Adana</option>
-                    <option>Ankara</option>
-                    <option>Antalya</option>
-                    <option>Balıkesir</option>
-                    <option>Bursa</option>
-                    <option>İstanbul</option>
-                    <option>Izmir</option>
-                </select></td>
-            </tr>
-            <tr>
-                <td><label for="Gender"></label>Gender:</td>
-                <td></td>
-                <td>
-                    <input type="radio" name="choose">Man 
-                    <input type="radio" name="choose">Woman
-            </td>
-
-            </tr>
-            <tr>
+      <div class="box">
+        <h1>Enter Your Information To Register</h1>
+        <form id="login">
+            <h2> Your Account Information</h2>
+            <p>
+                <input type="text" id="username" name="username" placeholder="Username">
+            </p>
+            <p>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </p>
+            <p>
+                <input type="password" id="password" name="password" placeholder="Password">    
+            </p>
+            <h2> Your Personal Information</h2>
+            <p>
+                <input type="text" id="Name" name="Name" placeholder="Name">
+            </p>
+            <p>
+                <input type="text" id="Surname" name="Surname" placeholder="Surname">
+            </p>
+                <input type="radio" name="choose">Man 
+                <input type="radio" name="choose">Woman
+            <p style="display: flex;">
+                <input type="submit" id="sign in" value="sign in">
+                <input type="reset" id="reset" value="reset">
+            </p>
+        </form>
+    </div>
                 <td></td>
                 <td></td>
                 <td><button type="submit"> Save </button> </td>
